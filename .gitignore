@@ -1,0 +1,7 @@
+-e client/node_modules/
+client/dist/
+.env
+*.env.local
+.DS_Store
+data/*.db
+.serverless/
