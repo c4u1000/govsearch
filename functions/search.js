@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+// Uses native fetch (Node 18+)
 
 const SAM_API_BASE = 'https://api.sam.gov/entity-information/v3/activedatas';
 
