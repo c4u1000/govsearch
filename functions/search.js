@@ -56,7 +56,7 @@ exports.handler = async (event) => {
 
     const response = await fetch(url, {
       headers: {
-        'API-KEY': apiKey,
+        'ApiKey': apiKey,
         'Content-Type': 'application/json',
       },
     });
